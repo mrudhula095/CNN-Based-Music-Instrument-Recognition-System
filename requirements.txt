@@ -6,3 +6,4 @@ matplotlib==3.7.1
 scikit-learn==1.2.2
 pandas==1.5.3
 soundfile
+gdown
