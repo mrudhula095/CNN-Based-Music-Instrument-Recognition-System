@@ -1,0 +1,11 @@
+{
+    "audio_file": "mallet_acoustic_002-038-100.wav",
+    "predicted_instrument": "mallet",
+    "confidence": 0.9999998807907104,
+    "instrument_summary": {
+        "flute": 0.39254736128107953,
+        "guitar": 0.18884646095550883,
+        "reed": 0.33906900163627657
+    },
+    "condition": "Aged"
+}

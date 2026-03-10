@@ -1,0 +1,10 @@
+{
+    "audio_file": "reed_acoustic_003-021-127.wav",
+    "predicted_instrument": "reed",
+    "confidence": 0.9661281704902649,
+    "instrument_summary": {
+        "flute": 0.1957978457212448,
+        "vocal": 0.553900957107544
+    },
+    "condition": "Aged"
+}

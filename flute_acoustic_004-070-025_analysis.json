@@ -1,0 +1,9 @@
+{
+    "audio_file": "flute_acoustic_004-070-025.wav",
+    "predicted_instrument": "flute",
+    "confidence": 1.0,
+    "instrument_summary": {
+        "guitar": 0.9941118359565735
+    },
+    "condition": "Aged"
+}
