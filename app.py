@@ -17,6 +17,24 @@ from preprocess import preprocess_audio
 from multidetect import predict_segments
 from harmonic_analysis import harmonic_analysis, estimate_perceived_age
 
+
+import gdown
+import os
+import tensorflow as tf
+import streamlit as st
+
+MODEL_URL =  "https://drive.google.com/uc?id=1uAkLElgBqSfpcvJ7RtSNlupWJAr8jJ5i"
+MODEL_PATH = "instrunet_model_final.keras"
+
+if not os.path.exists(MODEL_PATH):
+    gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
+
+@st.cache_resource
+def load_model():
+    return tf.keras.models.load_model(MODEL_PATH)
+
+model = load_model()
+
 warnings.filterwarnings("ignore")
 
 # ==============================
